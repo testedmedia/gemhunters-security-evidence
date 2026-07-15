@@ -65,9 +65,10 @@ republished or credited derivatives, and 1 older independent pulse.
 
 Domain ownership evidence
 gemhunters-domain-ownership-proof-20260714.txt
-SHA-256 b7bd154334f9044d5aeadbba0db4cda8f94cd5764bc02678d522fcbd12e91483
-Records the live Gridinsoft-specific and OTX-specific TXT values and the
-commands used to resolve each through 1.1.1.1 and 8.8.8.8.
+SHA-256 74bb5422afc023d6506faf8bf248656f84a69011f7f51ccce4c51fd8e7474269
+Records the live Gridinsoft-specific and OTX-specific TXT values, the
+OTX-authorized submitting contact, and the commands used to resolve each
+through 1.1.1.1 and 8.8.8.8.
 
 Known limitation
 The evidence covers disclosed, indexed, known, and common credential paths. It

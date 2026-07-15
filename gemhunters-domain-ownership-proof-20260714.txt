@@ -21,6 +21,12 @@ Record: _otx-verification.gemhunters.co
 Type: TXT
 Value: gemhunters-domain-owner=otx-20260714-8f6b9aa2e41c73d0
 
+OTX authorized submitting contact
+Published: 2026-07-15T02:22:34Z
+Record: _otx-verification.gemhunters.co
+Type: TXT
+Value: gemhunters-authorized-contact=xavi@tested.media
+
 The value was independently resolved through both Cloudflare 1.1.1.1 and Google 8.8.8.8 immediately after publication.
 
 Reproduction:
@@ -29,3 +35,4 @@ dig +short TXT _otx-verification.gemhunters.co @8.8.8.8
 
 Expected response from each resolver:
 "gemhunters-domain-owner=otx-20260714-8f6b9aa2e41c73d0"
+"gemhunters-authorized-contact=xavi@tested.media"

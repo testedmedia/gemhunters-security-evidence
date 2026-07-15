@@ -21,6 +21,7 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-virustotal-domain-20260714.png` | `05f169fa45a80cc21f878bb071e6b769e55419190ea05a0a87f627a0a3ef5915` |
 | `gemhunters-http-forensic-matrix-20260714.txt` | `bc064731b8c040e7ab0c3499539b6c65a4df647e6122639ac84db137211cf9627` |
 | `gemhunters-globalping-ipv6-evidence-20260714.json` | `30c40dc7aef3076236f677bb5065bda02907369ad4d135405d05031387e6f487` |
+| `gemhunters-globalping-four-entry-ipv6-20260714.json` | `2b51901ae41f9c08e6a3b04ba521af7cda69033d3f7a52ba6d9ebafde28bf35b` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
@@ -33,6 +34,8 @@ The DNS proof file records the live TXT value published at `_reputation-verifica
 The Google Safe Browsing and VirusTotal screenshots preserve the July 14 clean reputation observations used in the vendor appeals. The VirusTotal view displayed zero detections across 91 vendors and a last-analysis age of three days. The Google view displayed `No unsafe content found` and a July 14, 2026 update date.
 
 The full IPv4 forensic matrix and raw Globalping IPv6 results are also exposed as direct files so reputation reviewers can inspect them without downloading the evidence archives.
+
+The four-entry IPv6 report adds protocol and host parity across `http` and `https` for both the apex and `www` hosts. Five probes each in the United States, United Kingdom, Germany, Australia, and Brazil reproduced the expected redirect chain and final HTTP 200 apex response without a challenge marker.
 
 ## Independent references
 

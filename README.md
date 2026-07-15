@@ -59,4 +59,4 @@ The per-pulse indicator capture fetched all 25 public pulse records at `2026-07-
 - PhishDestroy dispute: https://github.com/phishdestroy/destroylist/issues/332
 - OTX domain indicator: https://otx.alienvault.com/indicator/domain/gemhunters.co
 
-Security questions and private evidence requests can be sent to `victor@gemhunters.co`.co`.
+Security questions and private evidence requests can be sent to `victor@gemhunters.co`.

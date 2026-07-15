@@ -52,6 +52,23 @@ Native IPv6 neutral results
 https://internet.nl/site/gemhunters.co/4184325/
 https://internet.nl/site/www.gemhunters.co/4184367/
 
+OTX reputation review evidence
+gemhunters-otx-general-api-20260714.json
+SHA-256 1e95dc4ff68c366c48f337859b054fd64f3a5220eefddd190b52668fbc56176e
+Public OTX domain indicator API captured at 2026-07-15T02:11:43.081Z.
+The response linked gemhunters.co to 25 pulses.
+
+gemhunters-otx-pulse-review-20260714.md
+SHA-256 6f25cb96e171f95a5e301ca7980aa5222dcb6fc267ec765a9808b7417d14f1f2
+Classifies the 25 linked pulse IDs as 7 direct PhishDestroy entries, 17
+republished or credited derivatives, and 1 older independent pulse.
+
+Domain ownership evidence
+gemhunters-domain-ownership-proof-20260714.txt
+SHA-256 b7bd154334f9044d5aeadbba0db4cda8f94cd5764bc02678d522fcbd12e91483
+Records the live Gridinsoft-specific and OTX-specific TXT values and the
+commands used to resolve each through 1.1.1.1 and 8.8.8.8.
+
 Known limitation
 The evidence covers disclosed, indexed, known, and common credential paths. It
 cannot test the original flagged URL because PhishDestroy has not disclosed it.

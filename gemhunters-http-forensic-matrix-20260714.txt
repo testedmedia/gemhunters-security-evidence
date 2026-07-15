@@ -1,0 +1,67 @@
+GemHunters per-URL HTTP forensic matrix
+
+Captured: 2026-07-14T22:57:00Z
+Client: curl 8.7.1, x86_64-apple-darwin25.0
+Transport: IPv4-only via curl -4
+Request headers: Cache-Control: no-cache; Pragma: no-cache
+User-Agent: curl/8.7.1 reputation-verification
+Cookies or authenticated site session: none
+
+URL: http://gemhunters.co/
+Final URL: https://gemhunters.co/
+Redirects: 1
+Final status: 200
+Content-Type: text/html
+IP family: IPv4
+Final remote IP: 172.66.174.146
+CF-Ray: a1b41fbe8acdb207-MIA
+cf-mitigated: absent
+Just a moment in body: absent
+Body bytes: 98063
+Per-request body SHA-256: 7e8f351b3bfd564903f354590100afe5954872f51bed086670a3607c0d81171e
+Title: Gem Hunters | Crypto Research Community Since 2017
+
+URL: http://www.gemhunters.co/
+Final URL: https://gemhunters.co/
+Redirects: 2
+Final status: 200
+Content-Type: text/html
+IP family: IPv4
+Final remote IP: 104.20.32.251
+CF-Ray: a1b41fc78a98d8bf-MIA
+cf-mitigated: absent
+Just a moment in body: absent
+Body bytes: 98063
+Per-request body SHA-256: 373ddd62d0cfafa83fe97d62d5d327030a452a621adaec39b367e46ebece0e63
+Title: Gem Hunters | Crypto Research Community Since 2017
+
+URL: https://gemhunters.co/
+Final URL: https://gemhunters.co/
+Redirects: 0
+Final status: 200
+Content-Type: text/html
+IP family: IPv4
+Final remote IP: 104.20.32.251
+CF-Ray: a1b41fd0cc5412e2-MIA
+cf-mitigated: absent
+Just a moment in body: absent
+Body bytes: 98063
+Per-request body SHA-256: 704d2a06ffa40a2929dd505261ab79161af35f659767ff2a1e50c5017ed1c8c1
+Title: Gem Hunters | Crypto Research Community Since 2017
+
+URL: https://www.gemhunters.co/
+Final URL: https://gemhunters.co/
+Redirects: 1
+Final status: 200
+Content-Type: text/html
+IP family: IPv4
+Final remote IP: 104.20.32.251
+CF-Ray: a1b41fd79bd0e1c2-MIA
+cf-mitigated: absent
+Just a moment in body: absent
+Body bytes: 98063
+Per-request body SHA-256: 5accca9c56c8fcd48e30f22abf599148ba4fda32f49f75aa6026437bd6ff1b88
+Title: Gem Hunters | Crypto Research Community Since 2017
+
+The body hashes are per-request integrity values. Dynamic page values can make
+hashes differ between otherwise equivalent successful responses.

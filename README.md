@@ -19,6 +19,8 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-domain-ownership-proof-20260714.txt` | `c4575b55c5f46676b7ebcd300e983cbe2d4dc800044250a280549dd61805df82` |
 | `gemhunters-google-safe-browsing-20260714.png` | `6379652b512d98322dc4471848a4f8698038aec0bb2b6e183c6884eceb3d213e` |
 | `gemhunters-virustotal-domain-20260714.png` | `05f169fa45a80cc21f878bb071e6b769e55419190ea05a0a87f627a0a3ef5915` |
+| `gemhunters-http-forensic-matrix-20260714.txt` | `bc064731b8c040e7ab0c3499539b6c65a4df647e6122639ac84db137211cf9627` |
+| `gemhunters-globalping-ipv6-evidence-20260714.json` | `30c40dc7aef3076236f677bb5065bda02907369ad4d135405d05031387e6f487` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
@@ -29,6 +31,8 @@ The Gridinsoft screenshot preserves its July 14, 2026 `Suspicious Website` repor
 The DNS proof file records the live TXT value published at `_reputation-verification.gemhunters.co` for domain-control verification during the reputation appeals.
 
 The Google Safe Browsing and VirusTotal screenshots preserve the July 14 clean reputation observations used in the vendor appeals. The VirusTotal view displayed zero detections across 91 vendors and a last-analysis age of three days. The Google view displayed `No unsafe content found` and a July 14, 2026 update date.
+
+The full IPv4 forensic matrix and raw Globalping IPv6 results are also exposed as direct files so reputation reviewers can inspect them without downloading the evidence archives.
 
 ## Independent references
 

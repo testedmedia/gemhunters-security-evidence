@@ -1,0 +1,690 @@
+{
+  "source": "Globalping by jsDelivr",
+  "measurementId": "2C1z1cHuorY4Wf2db00020lJL",
+  "apiUrl": "https://api.globalping.io/v1/measurements/2C1z1cHuorY4Wf2db00020lJL",
+  "shareUrl": "https://globalping.io/?measurement=2C1z1cHuorY4Wf2db00020lJL",
+  "status": "finished",
+  "createdAt": "2026-07-14T23:39:50.187Z",
+  "updatedAt": "2026-07-14T23:39:52.419Z",
+  "requestedTest": {
+    "type": "http",
+    "target": "gemhunters.co",
+    "locations": [
+      {
+        "magic": "US+eyeball",
+        "limit": 2
+      },
+      {
+        "magic": "CA+eyeball",
+        "limit": 2
+      },
+      {
+        "magic": "GB+eyeball",
+        "limit": 2
+      },
+      {
+        "magic": "DE+eyeball",
+        "limit": 2
+      },
+      {
+        "magic": "AU+eyeball",
+        "limit": 2
+      },
+      {
+        "magic": "BR+eyeball",
+        "limit": 2
+      }
+    ],
+    "measurementOptions": {
+      "protocol": "HTTPS",
+      "port": 443,
+      "ipVersion": 6,
+      "request": {
+        "method": "GET",
+        "path": "/",
+        "headers": {
+          "User-Agent": "security-scanner/1.0 reputation-verification"
+        }
+      }
+    }
+  },
+  "markerPatterns": [
+    "/Just a moment/i",
+    "/Checking your browser/i",
+    "/Enable JavaScript and cookies to continue/i",
+    "/Sorry, you have been blocked/i",
+    "/Attention Required[^<]*Cloudflare/i",
+    "/cf-chl-/i"
+  ],
+  "summary": {
+    "probeCount": 12,
+    "countryCount": 6,
+    "completedHttpProbeCount": 10,
+    "probeNoResultCount": 2,
+    "httpFailureCount": 0,
+    "nativeIpv6FailureCount": 0,
+    "expectedTitleFailureCount": 0,
+    "challengeUrlCount": 0,
+    "passwordFieldUrlCount": 0,
+    "tlsUnauthorizedCount": 0
+  },
+  "results": [
+    {
+      "probe": {
+        "continent": "NA",
+        "region": "Northern America",
+        "country": "US",
+        "state": "AZ",
+        "city": "Phoenix",
+        "asn": 31898,
+        "network": "Oracle",
+        "tags": [
+          "oci-us-phoenix-1",
+          "oci",
+          "eyeball-network"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e78cf625a75-LAX",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 119,
+        "dns": 22,
+        "tcp": 10,
+        "tls": 25,
+        "firstByte": 60,
+        "download": 2
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "NA",
+        "region": "Northern America",
+        "country": "US",
+        "state": "WA",
+        "city": "Seattle",
+        "asn": 7922,
+        "network": "Comcast Cable Communications",
+        "tags": [
+          "eyeball-network"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e824acc709c-SEA",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 505,
+        "dns": 102,
+        "tcp": 11,
+        "tls": 239,
+        "firstByte": 67,
+        "download": 86
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "NA",
+        "region": "Northern America",
+        "country": "CA",
+        "state": null,
+        "city": "Toronto",
+        "asn": 31898,
+        "network": "Oracle",
+        "tags": [
+          "oci-ca-toronto-1",
+          "oci",
+          "eyeball-network",
+          "u-fyaz6194:toronto"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:130:436c:6f75:6466:6c61:7265",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e77f87a52cf-YYZ",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 77,
+        "dns": 20,
+        "tcp": 2,
+        "tls": 8,
+        "firstByte": 46,
+        "download": 1
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "NA",
+        "region": "Northern America",
+        "country": "CA",
+        "state": null,
+        "city": "Guelph",
+        "asn": 5645,
+        "network": "TekSavvy Solutions",
+        "tags": [
+          "eyeball-network"
+        ]
+      },
+      "resultStatus": "failed",
+      "failureMessage": "queryAaaa ENOTFOUND gemhunters.co",
+      "statusCode": null,
+      "statusCodeName": null,
+      "resolvedAddress": null,
+      "contentType": null,
+      "cfCacheStatus": null,
+      "cfRay": null,
+      "title": null,
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 0,
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "timings": {
+        "total": null,
+        "dns": null,
+        "tcp": null,
+        "tls": null,
+        "firstByte": null,
+        "download": null
+      },
+      "tls": {}
+    },
+    {
+      "probe": {
+        "continent": "EU",
+        "region": "Northern Europe",
+        "country": "GB",
+        "state": null,
+        "city": "London",
+        "asn": 16509,
+        "network": "Amazon.com",
+        "tags": [
+          "aws-eu-west-2",
+          "aws",
+          "eyeball-network",
+          "u-rlkvch"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::ac42:ae92",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e773c2d63fb-LHR",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 80,
+        "dns": 33,
+        "tcp": 2,
+        "tls": 11,
+        "firstByte": 33,
+        "download": 1
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "EU",
+        "region": "Northern Europe",
+        "country": "GB",
+        "state": null,
+        "city": "Laurencekirk",
+        "asn": 205847,
+        "network": "GoFibre Holdings",
+        "tags": [
+          "eyeball-network",
+          "u-jcdmacleod"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e77be40789f-LHR",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 137,
+        "dns": 59,
+        "tcp": 17,
+        "tls": 22,
+        "firstByte": 38,
+        "download": 1
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "EU",
+        "region": "Western Europe",
+        "country": "DE",
+        "state": null,
+        "city": "Frankfurt",
+        "asn": 200461,
+        "network": "Ian David Klemm",
+        "tags": [
+          "eyeball-network",
+          "u-Decicus"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::ac42:ae92",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e76e8c620b6-FRA",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 61,
+        "dns": 7,
+        "tcp": 1,
+        "tls": 9,
+        "firstByte": 42,
+        "download": 2
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "EU",
+        "region": "Western Europe",
+        "country": "DE",
+        "state": null,
+        "city": "Hamburg",
+        "asn": 3320,
+        "network": "Deutsche Telekom",
+        "tags": [
+          "eyeball-network",
+          "u-bondskin",
+          "u-bondskin:Telekom",
+          "u-bondskin:VDSL"
+        ]
+      },
+      "resultStatus": "failed",
+      "failureMessage": "Private IP ranges are not allowed.",
+      "statusCode": null,
+      "statusCodeName": null,
+      "resolvedAddress": null,
+      "contentType": null,
+      "cfCacheStatus": null,
+      "cfRay": null,
+      "title": null,
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 0,
+      "bodySha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "timings": {
+        "total": null,
+        "dns": null,
+        "tcp": null,
+        "tls": null,
+        "firstByte": null,
+        "download": null
+      },
+      "tls": {}
+    },
+    {
+      "probe": {
+        "continent": "OC",
+        "region": "Australia and New Zealand",
+        "country": "AU",
+        "state": null,
+        "city": "Sydney",
+        "asn": 16509,
+        "network": "Amazon.com",
+        "tags": [
+          "aws-ap-southeast-2",
+          "aws",
+          "eyeball-network",
+          "u-jimaek"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::ac42:ae92",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e799f38f3c0-SYD",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 144,
+        "dns": 11,
+        "tcp": 1,
+        "tls": 8,
+        "firstByte": 120,
+        "download": 4
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "OC",
+        "region": "Australia and New Zealand",
+        "country": "AU",
+        "state": null,
+        "city": "Brisbane",
+        "asn": 4764,
+        "network": "Aussie Broadband",
+        "tags": [
+          "eyeball-network",
+          "u-fredskis"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e7a28f5d715-BNE",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 136,
+        "dns": 47,
+        "tcp": 13,
+        "tls": 25,
+        "firstByte": 50,
+        "download": 1
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "SA",
+        "region": "South America",
+        "country": "BR",
+        "state": null,
+        "city": "Sao Paulo",
+        "asn": 27699,
+        "network": "Telefonica",
+        "tags": [
+          "eyeball-network",
+          "u-rodrigostival",
+          "u-rodrigostival:VIVO"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e7afa0123ac-GRU",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 101,
+        "dns": 15,
+        "tcp": 6,
+        "tls": 36,
+        "firstByte": 38,
+        "download": 6
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    },
+    {
+      "probe": {
+        "continent": "SA",
+        "region": "South America",
+        "country": "BR",
+        "state": null,
+        "city": "Jundiai",
+        "asn": 28573,
+        "network": "Claro NXT Telecomunicacoes",
+        "tags": [
+          "eyeball-network"
+        ]
+      },
+      "resultStatus": "finished",
+      "failureMessage": null,
+      "statusCode": 200,
+      "statusCodeName": "OK",
+      "resolvedAddress": "2606:4700:10::6814:20fb",
+      "contentType": "text/html",
+      "cfCacheStatus": "HIT",
+      "cfRay": "a1b45e79c8bef1c5-GRU",
+      "title": "Gem Hunters | Crypto Research Community Since 2017",
+      "challengeMarkers": [],
+      "forms": 0,
+      "inputs": 0,
+      "passwordFields": 0,
+      "metaRefresh": 0,
+      "bodyBytes": 10000,
+      "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+      "timings": {
+        "total": 243,
+        "dns": 28,
+        "tcp": 17,
+        "tls": 105,
+        "firstByte": 67,
+        "download": 26
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3",
+        "subject": {
+          "CN": "gemhunters.co",
+          "alt": "DNS:gemhunters.co, DNS:*.gemhunters.co"
+        },
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "fingerprint256": "89:5A:26:8D:CC:1D:78:1A:41:CB:30:18:B4:7C:C8:40:91:13:A0:D5:C8:8C:7C:FE:E6:7A:B0:72:05:CB:17:A4"
+      }
+    }
+  ]
+}

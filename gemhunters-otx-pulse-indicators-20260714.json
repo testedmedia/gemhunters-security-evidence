@@ -1,0 +1,450 @@
+{
+  "capture_metadata": {
+    "captured_at_utc": "2026-07-15T02:33:26.247Z",
+    "source_general_api": "https://otx.alienvault.com/api/v1/indicators/domain/gemhunters.co/general",
+    "pulse_count": 25,
+    "method": "Fetched each public /api/v1/pulses/{id} response and selected indicators containing gemhunters.co"
+  },
+  "summary": {
+    "pulses_with_gemhunters_matches": 25,
+    "total_gemhunters_matches": 26,
+    "unique_matching_type_and_value": [
+      "domain:gemhunters.co"
+    ]
+  },
+  "pulses": [
+    {
+      "pulse_id": "6a36701d517da7c86d714f2a",
+      "pulse_name": "PhishDestroy — part-03-of-06",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a36701d517da7c86d714f2a",
+      "total_indicator_count": 35360,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-24T00:00:09"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a366fbd06ef21b359d38f19",
+      "pulse_name": "PhishDestroy — part-02-of-06",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a366fbd06ef21b359d38f19",
+      "total_indicator_count": 33710,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-20T10:49:01"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a367199bbfe0fd085a98f37",
+      "pulse_name": "PhishDestroy — Content Active Threats (Live)",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a367199bbfe0fd085a98f37",
+      "total_indicator_count": 196833,
+      "gemhunters_match_count": 2,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-20T20:05:20"
+        },
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-07-08T00:01:32"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a5efdfdf98f93b1a299",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a5efdfdf98f93b1a299",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:22"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a5d56c0129f5d8de0a7",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a5d56c0129f5d8de0a7",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:21"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a5c1f82408f484a5dca",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a5c1f82408f484a5dca",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:20"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a5b5425ca117325aaa8",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a5b5425ca117325aaa8",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:19"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a584e60ec735598ecef",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a584e60ec735598ecef",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:16"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a57d0880af4c22be206",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a57d0880af4c22be206",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:15"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a564b8af781e0f8c0e5",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a564b8af781e0f8c0e5",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:14"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a5509732ff4517ba833",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a5509732ff4517ba833",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:13"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a548c5705ab8ff9d427",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a548c5705ab8ff9d427",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:12"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a430a53eae22ccb1d916bd5",
+      "pulse_name": "Phish Destroy Clone/Credit - 1weekago",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a430a53eae22ccb1d916bd5",
+      "total_indicator_count": 107080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-06-30T00:14:11"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69c081afa2bd54a9599b7c07",
+      "pulse_name": "PhishDestroy — Active Phishing & Crypto Scam Domains",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69c081afa2bd54a9599b7c07",
+      "total_indicator_count": 179589,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-03-22T23:58:59"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a277c12a5d7ae98102fa6ef",
+      "pulse_name": "PhishDestroy Monthly - All Domains - 2026-02",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a277c12a5d7ae98102fa6ef",
+      "total_indicator_count": 48106,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "PhishDestroy detection",
+          "created": "2026-06-09T02:47:38"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6a277c1b3fec1360793b0b08",
+      "pulse_name": "PhishDestroy Monthly - Live Domains - 2026-02",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6a277c1b3fec1360793b0b08",
+      "total_indicator_count": 25257,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "PhishDestroy detection",
+          "created": "2026-06-09T02:45:19"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83cb0ce73bef5c452bfb0",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83cb0ce73bef5c452bfb0",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:29:04"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83caf1bef3609f0eb79e2",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83caf1bef3609f0eb79e2",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:29:03"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83cac7d6c947de6c080f9",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83cac7d6c947de6c080f9",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:29:00"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83cab9769e92b3285a2b4",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83cab9769e92b3285a2b4",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:28:59"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83cab7e03b19c5f1078e3",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83cab7e03b19c5f1078e3",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:28:59"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83ca9411c8ab5d294a7e2",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83ca9411c8ab5d294a7e2",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:28:57"
+        }
+      ]
+    },
+    {
+      "pulse_id": "69f83ca77d6c947de6c080f8",
+      "pulse_name": "Credit: PhishDestroy Clone [\"phish detroy- open domains\"]",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/69f83ca77d6c947de6c080f8",
+      "total_indicator_count": 143080,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2026-05-04T06:28:55"
+        }
+      ]
+    },
+    {
+      "pulse_id": "6895baa2f44f0d6a1f832067",
+      "pulse_name": "destroylist",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/6895baa2f44f0d6a1f832067",
+      "total_indicator_count": 8425,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2025-08-08T08:51:50"
+        }
+      ]
+    },
+    {
+      "pulse_id": "67aba5430561e717a1002fb7",
+      "pulse_name": "Crypto Scam and Crypto Phishing URLs",
+      "source_url": "https://otx.alienvault.com/api/v1/pulses/67aba5430561e717a1002fb7",
+      "total_indicator_count": 175,
+      "gemhunters_match_count": 1,
+      "gemhunters_matches": [
+        {
+          "id": 4035874180,
+          "type": "domain",
+          "indicator": "gemhunters.co",
+          "title": "",
+          "description": "",
+          "created": "2025-02-11T19:30:12"
+        }
+      ]
+    }
+  ]
+}

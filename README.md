@@ -8,7 +8,7 @@ The evidence challenges the active malicious-domain verdict because the report d
 
 | File | SHA-256 |
 | --- | --- |
-| `gemhunters-evidence-manifest-20260714.txt` | `0422c0c227b2c655ec6a89dacf272eb86b24c2d9c7b63eb5cd2cbac297312c95` |
+| `gemhunters-evidence-manifest-20260714.txt` | `7bc4e66011cf43757a28ebae9fe5c399511f75f94bc1ad5a1de22dd65a60f690` |
 | `gemhunters-clean-browser-cdp-20260714.png` | `97e6d028efdb6953d05f819866d7b5b3fd513c70eb56123c3c186928adcd616f` |
 | `gemhunters-public-evidence-20260714.zip` | `c3aef84a1356d7ac76e3afda0bc74e08ab29d118d31eaf64e9685dc9f8896ced` |
 | `gemhunters-browser-trace-public-20260714.zip` | `8c35026758d55963c0e3f185517ae8433eb49a228e348cac7927465c2ae13a78` |
@@ -27,6 +27,7 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-browser-trace-summary-20260714.txt` | `4fe3c7469fb9cdf332dd539749d3925aeb91ea0435aa6fede51c0191671c7e5f` |
 | `gemhunters-otx-general-api-20260714.json` | `1e95dc4ff68c366c48f337859b054fd64f3a5220eefddd190b52668fbc56176e` |
 | `gemhunters-otx-pulse-review-20260714.md` | `6f25cb96e171f95a5e301ca7980aa5222dcb6fc267ec765a9808b7417d14f1f2` |
+| `gemhunters-otx-pulse-indicators-20260714.json` | `63a5ed1974891edd0fb00fe1aa8f34b153f82c4c671ae385597c4ee63bc56331` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
@@ -47,6 +48,8 @@ The matching four-entry IPv4 report repeats the same protocol, host, and five-co
 The Cloudflare remediation record documents a legacy Super Bot Fight Mode ruleset that Cloudflare warned could cause unexpected scanner blocks or challenges. It was disabled on July 14, 2026. The browser trace summary records clean post-change Chrome, mobile Safari, and generic security-scanner user-agent results with no 403, 429, or 503 response.
 
 The OTX API capture preserves the complete public 25-pulse response at `2026-07-15T02:11:43.081Z`. The adjacent review lists every pulse ID and the basis for classifying 7 direct PhishDestroy entries, 17 republished or credited derivatives, and one older independent pulse.
+
+The per-pulse indicator capture fetched all 25 public pulse records at `2026-07-15T02:33:26.247Z`. Across 26 Gem Hunters matches, the only unique matching indicator was `domain:gemhunters.co`; none disclosed a Gem Hunters URL, path, query string, or subdomain.
 
 ## Independent references
 

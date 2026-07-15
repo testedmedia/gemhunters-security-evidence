@@ -63,6 +63,13 @@ SHA-256 6f25cb96e171f95a5e301ca7980aa5222dcb6fc267ec765a9808b7417d14f1f2
 Classifies the 25 linked pulse IDs as 7 direct PhishDestroy entries, 17
 republished or credited derivatives, and 1 older independent pulse.
 
+gemhunters-otx-pulse-indicators-20260714.json
+SHA-256 63a5ed1974891edd0fb00fe1aa8f34b153f82c4c671ae385597c4ee63bc56331
+Fetched every public pulse record linked by the OTX domain API. All 25 pulses
+contained a matching indicator, 26 matching rows total, and the only unique
+matching type and value was domain:gemhunters.co. No pulse-disclosed URL,
+path, query string, or subdomain for gemhunters.co was present.
+
 Domain ownership evidence
 gemhunters-domain-ownership-proof-20260714.txt
 SHA-256 74bb5422afc023d6506faf8bf248656f84a69011f7f51ccce4c51fd8e7474269

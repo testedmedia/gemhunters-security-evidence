@@ -1,0 +1,16 @@
+GemHunters.co Gridinsoft appeal HTTP matrix
+
+Captured: 2026-07-14T22:57:00Z
+Client: curl 8.7.1, x86_64-apple-darwin25.0
+Transport: IPv4-only via curl -4
+Request headers: Cache-Control: no-cache; Pragma: no-cache
+User-Agent: curl/8.7.1 reputation-verification
+Cookies or authenticated session: none
+
+Entry URL                   Final URL                    Redirects  Status  Content-Type  Title
+http://gemhunters.co/       https://gemhunters.co/       1          200     text/html     Gem Hunters | Crypto Research Community Since 2017
+http://www.gemhunters.co/   https://gemhunters.co/       2          200     text/html     Gem Hunters | Crypto Research Community Since 2017
+https://gemhunters.co/      https://gemhunters.co/       0          200     text/html     Gem Hunters | Crypto Research Community Since 2017
+https://www.gemhunters.co/  https://gemhunters.co/       1          200     text/html     Gem Hunters | Crypto Research Community Since 2017
+
+No response contained a Cloudflare challenge marker. Per-request response body hashes and remote IP details are preserved in the full public evidence archive in this repository.

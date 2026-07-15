@@ -14,10 +14,14 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-browser-trace-public-20260714.zip` | `8c35026758d55963c0e3f185517ae8433eb49a228e348cac7927465c2ae13a78` |
 | `gemhunters-phishdestroy-api-20260714.json` | `a7b5c8f0ade92f8111de0f1d89cecf0737e6cf1ddb574fcc4ce8d250ad5e4755` |
 | `gemhunters-norton-url-blacklist-20260714.png` | `ff23b8fe133598e81cb7f66ed4b566ac528d480c40e1771b9088d0a2a08c6bcc` |
+| `gemhunters-gridinsoft-report-20260714.png` | `ebabcae4ebab58878f3d4d897aaeee00d3a07678cddc711e6e2533fb99eede49` |
+| `gemhunters-gridinsoft-http-matrix-20260714.txt` | `d8d83500875b6ab1edcd00fd2ea5b58239cea0062b0d5acfb1cc211914aba106` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
 The Norton screenshot documents the current user-facing impact: Norton Safe Web blocks `https://www.gemhunters.co/` as `URL:Blacklist`.
+
+The Gridinsoft screenshot preserves its July 14, 2026 `Suspicious Website` report, including the 31/100 score and single provider warning. The adjacent HTTP matrix gives Gridinsoft a compact, reproducible four-entry-URL rescan result.
 
 ## Independent references
 

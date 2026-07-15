@@ -22,6 +22,7 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-http-forensic-matrix-20260714.txt` | `bc064731b8c040e7ab0c3499539b6c65a4df647e6122639ac84db137211cf9627` |
 | `gemhunters-globalping-ipv6-evidence-20260714.json` | `30c40dc7aef3076236f677bb5065bda02907369ad4d135405d05031387e6f487` |
 | `gemhunters-globalping-four-entry-ipv6-20260714.json` | `2b51901ae41f9c08e6a3b04ba521af7cda69033d3f7a52ba6d9ebafde28bf35b` |
+| `gemhunters-globalping-four-entry-ipv4-20260714.json` | `cd4aadd8a99c1242308453e12f0c0cff61af222a84eda12dfa0ad246d11ac3ed` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
@@ -36,6 +37,8 @@ The Google Safe Browsing and VirusTotal screenshots preserve the July 14 clean r
 The full IPv4 forensic matrix and raw Globalping IPv6 results are also exposed as direct files so reputation reviewers can inspect them without downloading the evidence archives.
 
 The four-entry IPv6 report adds protocol and host parity across `http` and `https` for both the apex and `www` hosts. Five probes each in the United States, United Kingdom, Germany, Australia, and Brazil reproduced the expected redirect chain and final HTTP 200 apex response without a challenge marker.
+
+The matching four-entry IPv4 report repeats the same protocol, host, and five-country matrix over IPv4. All 20 probes reproduced the expected redirect chains and final HTTP 200 apex response without a challenge marker.
 
 ## Independent references
 

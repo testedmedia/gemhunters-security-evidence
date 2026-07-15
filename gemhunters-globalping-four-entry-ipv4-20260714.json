@@ -1,0 +1,431 @@
+{
+  "source": "Globalping by jsDelivr",
+  "purpose": "Multi-region IPv4 parity check for all four GemHunters protocol and host entry URLs",
+  "generatedAt": "2026-07-15T01:52:30.681Z",
+  "expectedChain": {
+    "http://gemhunters.co/": "301 to https://gemhunters.co/, then 200",
+    "http://www.gemhunters.co/": "301 to https://www.gemhunters.co/, then 301 to https://gemhunters.co/, then 200",
+    "https://gemhunters.co/": "200",
+    "https://www.gemhunters.co/": "301 to https://gemhunters.co/, then 200"
+  },
+  "measurements": [
+    {
+      "entryUrl": "https://www.gemhunters.co/",
+      "measurementId": "2KvFS689LED476GJN00020lLT",
+      "shareUrl": "https://globalping.io/?measurement=2KvFS689LED476GJN00020lLT",
+      "status": "finished",
+      "createdAt": "2026-07-15T01:51:56.967Z",
+      "target": "www.gemhunters.co",
+      "measurementOptions": {
+        "port": 443,
+        "request": {
+          "method": "GET",
+          "headers": {
+            "User-Agent": "security-scanner/1.0 reputation-verification"
+          }
+        }
+      },
+      "results": [
+        {
+          "country": "US",
+          "city": "Los Angeles",
+          "network": "HostPapa",
+          "asn": 36352,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 666,
+          "bodySha256": "3c2d80782516490b76f6684afef912c4ac782bbe31d0d36caa549ed005c2a5d4",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "GB",
+          "city": "London",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 162,
+          "bodySha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "DE",
+          "city": "Falkenstein",
+          "network": "Hetzner Online",
+          "asn": 24940,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 162,
+          "bodySha256": "9e17cb15dd75bbbd5dbb984eda674863c3b10ab72613cf8a39a00c3e11a8492a",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "AU",
+          "city": "Sydney",
+          "network": "DigitalOcean",
+          "asn": 14061,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 666,
+          "bodySha256": "3c2d80782516490b76f6684afef912c4ac782bbe31d0d36caa549ed005c2a5d4",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "BR",
+          "city": "Sao Paulo",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 666,
+          "bodySha256": "3c2d80782516490b76f6684afef912c4ac782bbe31d0d36caa549ed005c2a5d4",
+          "tlsAuthorized": true
+        }
+      ]
+    },
+    {
+      "entryUrl": "https://gemhunters.co/",
+      "measurementId": "2O2XMDW6NLFzrzPhy00020lLT",
+      "shareUrl": "https://globalping.io/?measurement=2O2XMDW6NLFzrzPhy00020lLT",
+      "status": "finished",
+      "createdAt": "2026-07-15T01:51:57.597Z",
+      "target": "gemhunters.co",
+      "measurementOptions": {
+        "port": 443,
+        "request": {
+          "method": "GET",
+          "headers": {
+            "User-Agent": "security-scanner/1.0 reputation-verification"
+          }
+        }
+      },
+      "results": [
+        {
+          "country": "US",
+          "city": "Buffalo",
+          "network": "HostPapa",
+          "asn": 36352,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 200,
+          "location": null,
+          "contentType": "text/html",
+          "title": "Gem Hunters | Crypto Research Community Since 2017",
+          "challengeMarkers": [],
+          "bodyBytes": 10000,
+          "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "GB",
+          "city": "London",
+          "network": "DigitalOcean",
+          "asn": 14061,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 200,
+          "location": null,
+          "contentType": "text/html",
+          "title": "Gem Hunters | Crypto Research Community Since 2017",
+          "challengeMarkers": [],
+          "bodyBytes": 10000,
+          "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "DE",
+          "city": "Falkenstein",
+          "network": "Hetzner Online",
+          "asn": 24940,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 200,
+          "location": null,
+          "contentType": "text/html",
+          "title": "Gem Hunters | Crypto Research Community Since 2017",
+          "challengeMarkers": [],
+          "bodyBytes": 10000,
+          "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "AU",
+          "city": "Sydney",
+          "network": "DigitalOcean",
+          "asn": 14061,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 200,
+          "location": null,
+          "contentType": "text/html",
+          "title": "Gem Hunters | Crypto Research Community Since 2017",
+          "challengeMarkers": [],
+          "bodyBytes": 10000,
+          "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+          "tlsAuthorized": true
+        },
+        {
+          "country": "BR",
+          "city": "Sao Paulo",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 200,
+          "location": null,
+          "contentType": "text/html",
+          "title": "Gem Hunters | Crypto Research Community Since 2017",
+          "challengeMarkers": [],
+          "bodyBytes": 10000,
+          "bodySha256": "b134de8e1f77420e9e0428cde39ce478707bcd1a30126c81aa1f52099d0590f1",
+          "tlsAuthorized": true
+        }
+      ]
+    },
+    {
+      "entryUrl": "http://gemhunters.co/",
+      "measurementId": "2WaxXimGGPJmmE3rr00020lLT",
+      "shareUrl": "https://globalping.io/?measurement=2WaxXimGGPJmmE3rr00020lLT",
+      "status": "finished",
+      "createdAt": "2026-07-15T01:51:58.259Z",
+      "target": "gemhunters.co",
+      "measurementOptions": {
+        "protocol": "HTTP",
+        "port": 80,
+        "request": {
+          "method": "GET",
+          "headers": {
+            "User-Agent": "security-scanner/1.0 reputation-verification"
+          }
+        }
+      },
+      "results": [
+        {
+          "country": "US",
+          "city": "Los Angeles",
+          "network": "HostPapa",
+          "asn": 36352,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "GB",
+          "city": "London",
+          "network": "OVH",
+          "asn": 16276,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "DE",
+          "city": "Falkenstein",
+          "network": "Hetzner Online",
+          "asn": 24940,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "AU",
+          "city": "Sydney",
+          "network": "DigitalOcean",
+          "asn": 14061,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "104.20.32.251",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "BR",
+          "city": "Sao Paulo",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        }
+      ]
+    },
+    {
+      "entryUrl": "http://www.gemhunters.co/",
+      "measurementId": "2qS50fLJRtGXRqiaJ00020lLT",
+      "shareUrl": "https://globalping.io/?measurement=2qS50fLJRtGXRqiaJ00020lLT",
+      "status": "finished",
+      "createdAt": "2026-07-15T01:51:58.972Z",
+      "target": "www.gemhunters.co",
+      "measurementOptions": {
+        "protocol": "HTTP",
+        "port": 80,
+        "request": {
+          "method": "GET",
+          "headers": {
+            "User-Agent": "security-scanner/1.0 reputation-verification"
+          }
+        }
+      },
+      "results": [
+        {
+          "country": "US",
+          "city": "Los Angeles",
+          "network": "HostPapa",
+          "asn": 36352,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://www.gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "GB",
+          "city": "London",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://www.gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "DE",
+          "city": "Falkenstein",
+          "network": "Hetzner Online",
+          "asn": 24940,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://www.gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "AU",
+          "city": "Sydney",
+          "network": "DigitalOcean",
+          "asn": 14061,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://www.gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        },
+        {
+          "country": "BR",
+          "city": "Sao Paulo",
+          "network": "Oracle",
+          "asn": 31898,
+          "resultStatus": "finished",
+          "failureMessage": null,
+          "resolvedAddress": "172.66.174.146",
+          "statusCode": 301,
+          "location": "https://www.gemhunters.co/",
+          "contentType": "text/html; charset=UTF-8",
+          "title": "301 Moved Permanently",
+          "challengeMarkers": [],
+          "bodyBytes": 167,
+          "bodySha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f",
+          "tlsAuthorized": null
+        }
+      ]
+    }
+  ]
+}

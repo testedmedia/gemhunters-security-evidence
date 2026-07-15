@@ -35,7 +35,7 @@ The Norton screenshot documents the current user-facing impact: Norton Safe Web 
 
 The Gridinsoft screenshot preserves its July 14, 2026 `Suspicious Website` report, including the 31/100 score and single provider warning. The adjacent HTTP matrix gives Gridinsoft a compact, reproducible four-entry-URL rescan result.
 
-The DNS proof file records the live vendor-specific TXT values published at `_reputation-verification.gemhunters.co` and `_otx-verification.gemhunters.co` for domain-control verification during the reputation appeals. The OTX record also identifies `xavi@tested.media` as the authorized submitting contact.
+The DNS proof file records the live vendor-specific TXT values published at `_reputation-verification.gemhunters.co` and `_otx-verification.gemhunters.co` for domain-control verification during the reputation appeals. The OTX record records an authorized submitting contact.
 
 The Google Safe Browsing and VirusTotal screenshots preserve the July 14 clean reputation observations used in the vendor appeals. The VirusTotal view displayed zero detections across 91 vendors and a last-analysis age of three days. The Google view displayed `No unsafe content found` and a July 14, 2026 update date.
 
@@ -59,4 +59,4 @@ The per-pulse indicator capture fetched all 25 public pulse records at `2026-07-
 - PhishDestroy dispute: https://github.com/phishdestroy/destroylist/issues/332
 - OTX domain indicator: https://otx.alienvault.com/indicator/domain/gemhunters.co
 
-Security questions and private evidence requests can be sent to `support@gemhunters.co`.
+Security questions and private evidence requests can be sent to `victor@gemhunters.co`.co`.

@@ -23,6 +23,8 @@ The evidence challenges the active malicious-domain verdict because the report d
 | `gemhunters-globalping-ipv6-evidence-20260714.json` | `30c40dc7aef3076236f677bb5065bda02907369ad4d135405d05031387e6f487` |
 | `gemhunters-globalping-four-entry-ipv6-20260714.json` | `2b51901ae41f9c08e6a3b04ba521af7cda69033d3f7a52ba6d9ebafde28bf35b` |
 | `gemhunters-globalping-four-entry-ipv4-20260714.json` | `cd4aadd8a99c1242308453e12f0c0cff61af222a84eda12dfa0ad246d11ac3ed` |
+| `gemhunters-cloudflare-redacted-evidence-20260714.txt` | `0825a65c4706f1a1cc7232da3f285feff3015ae7a8319bab09a03d4bb6db2f78` |
+| `gemhunters-browser-trace-summary-20260714.txt` | `4fe3c7469fb9cdf332dd539749d3925aeb91ea0435aa6fede51c0191671c7e5f` |
 
 The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
 
@@ -39,6 +41,8 @@ The full IPv4 forensic matrix and raw Globalping IPv6 results are also exposed a
 The four-entry IPv6 report adds protocol and host parity across `http` and `https` for both the apex and `www` hosts. Five probes each in the United States, United Kingdom, Germany, Australia, and Brazil reproduced the expected redirect chain and final HTTP 200 apex response without a challenge marker.
 
 The matching four-entry IPv4 report repeats the same protocol, host, and five-country matrix over IPv4. All 20 probes reproduced the expected redirect chains and final HTTP 200 apex response without a challenge marker.
+
+The Cloudflare remediation record documents a legacy Super Bot Fight Mode ruleset that Cloudflare warned could cause unexpected scanner blocks or challenges. It was disabled on July 14, 2026. The browser trace summary records clean post-change Chrome, mobile Safari, and generic security-scanner user-agent results with no 403, 429, or 503 response.
 
 ## Independent references
 

@@ -1,0 +1,54 @@
+GemHunters Playwright browser trace summary
+
+Capture window: 2026-07-14T23:19:24.592Z to 2026-07-14T23:20:21.758Z
+Browser: Google Chrome 150.0.7871.115 through Playwright
+Target: https://gemhunters.co/
+Per-case delay after DOMContentLoaded: 10 seconds
+Clean isolated browser context for every case
+HAR mode: full with embedded public response content
+Sensitive HAR headers sanitized before public packaging
+
+Cases:
+1. Desktop Chrome UA, 1440x1000, empty referrer
+2. Desktop Chrome UA, 1440x1000, Google referrer
+3. Desktop Chrome UA, 1440x1000, X referrer
+4. Mobile Safari UA, 390x844, empty referrer
+5. Generic security-scanner UA, 1440x1000, empty referrer
+
+All five cases returned:
+- Main document HTTP 200
+- Final URL https://gemhunters.co/
+- Title Gem Hunters | Crypto Research Community Since 2017
+- Document readyState complete
+- 0 forms, 0 inputs, 0 password fields, 0 textareas
+- 0 meta refresh directives
+- No configured challenge marker in final DOM or visible text
+- 0 localStorage keys
+- Only sessionStorage key ghsid, a first-party anonymous funnel-session ID
+- 0 registered service workers
+
+HAR review for desktop empty-referrer, mobile empty-referrer, and scanner-UA:
+- 0 responses with status 403, 429, or 503
+- Cloudflare JavaScript Detection resources loaded successfully
+- /cdn-cgi/challenge-platform/scripts/jsd/main.js redirected 302 to the versioned script
+- The versioned JavaScript Detection script returned 200
+- The JavaScript Detection one-shot request returned 200
+- Cloudflare RUM returned 204
+- No Turnstile widget or visible interstitial was observed
+
+The single iframe observed after delayed execution was the hidden Cloudflare
+JavaScript Detection iframe. It did not replace the homepage or produce a
+block response. This trace proves the tested browser cases completed normally;
+it does not prove the result from PhishDestroy's own fingerprint or network.
+
+Public trace artifacts:
+- gemhunters-browser-trace-results-public-20260714.json
+- gemhunters-desktop_empty_referrer-20260714-sanitized.har
+- gemhunters-desktop_google_referrer-20260714-sanitized.har
+- gemhunters-desktop_x_referrer-20260714-sanitized.har
+- gemhunters-mobile_empty_referrer-20260714-sanitized.har
+- gemhunters-scanner_ua_empty_referrer-20260714-sanitized.har
+- desktop, mobile, and scanner final DOM files and screenshots
+
+The sanitized HARs contain no unredacted Cookie, Set-Cookie, or Authorization
+header values and no local filesystem paths or account credentials.

@@ -1,0 +1,18 @@
+GemHunters Cloudflare scanner-access remediation
+Zone: gemhunters.co
+
+Confirmed audit evidence:
+- 2025-02-09 09:05:46 UTC: Cloudflare Bot Management API created the ruleset
+  in phase http_request_sbfm.
+- 2026-07-14: Cloudflare identified the setting as legacy configuration from
+  a previous plan and warned that it could cause unexpected blockage or
+  challenges.
+- 2026-07-14: The legacy Super Bot Fight Mode ruleset was disabled.
+- Post-change unauthenticated HEAD and GET verification is recorded separately
+  in gemhunters-http-evidence-20260714.txt.
+
+Redaction confirmation:
+- No account-member names or emails.
+- No Cloudflare account, zone, member, ruleset, or user identifiers.
+- No source IP addresses.
+- No session cookies, API tokens, credentials, or unrelated configuration.

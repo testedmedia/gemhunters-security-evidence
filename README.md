@@ -1,0 +1,29 @@
+# GemHunters.co Security Evidence
+
+This repository preserves the public-safe evidence submitted in support of the false-positive correction request for PhishDestroy report `5E9D7443` and issue `phishdestroy/destroylist#332`.
+
+The evidence challenges the active malicious-domain verdict because the report does not disclose a reproducible phishing URL or payload, while broad independent and browser-backed rescans did not reproduce phishing. It does not claim that every possible URL can be proven clean.
+
+## Files
+
+| File | SHA-256 |
+| --- | --- |
+| `gemhunters-evidence-manifest-20260714.txt` | `78a005d396f14b70cc4956314c801bdf007ebbaedff73371901add9a99a0f138` |
+| `gemhunters-clean-browser-cdp-20260714.png` | `97e6d028efdb6953d05f819866d7b5b3fd513c70eb56123c3c186928adcd616f` |
+| `gemhunters-public-evidence-20260714.zip` | `c3aef84a1356d7ac76e3afda0bc74e08ab29d118d31eaf64e9685dc9f8896ced` |
+| `gemhunters-browser-trace-public-20260714.zip` | `8c35026758d55963c0e3f185517ae8433eb49a228e348cac7927465c2ae13a78` |
+| `gemhunters-phishdestroy-api-20260714.json` | `a7b5c8f0ade92f8111de0f1d89cecf0737e6cf1ddb574fcc4ce8d250ad5e4755` |
+| `gemhunters-norton-url-blacklist-20260714.png` | `ff23b8fe133598e81cb7f66ed4b566ac528d480c40e1771b9088d0a2a08c6bcc` |
+
+The manifest maps each claim to its supporting artifact, method, tool version, and limitation. The browser trace archive has sanitized authentication, cookie, and API-key header values.
+
+The Norton screenshot documents the current user-facing impact: Norton Safe Web blocks `https://www.gemhunters.co/` as `URL:Blacklist`.
+
+## Independent references
+
+- Globalping IPv6 measurement: https://globalping.io/?measurement=2C1z1cHuorY4Wf2db00020lJL
+- Internet.nl apex test: https://internet.nl/site/gemhunters.co/4184325/
+- Internet.nl www test: https://internet.nl/site/www.gemhunters.co/4184367/
+- PhishDestroy dispute: https://github.com/phishdestroy/destroylist/issues/332
+
+Security questions and private evidence requests can be sent to `support@gemhunters.co`.

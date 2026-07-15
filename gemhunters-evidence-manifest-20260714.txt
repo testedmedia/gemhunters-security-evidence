@@ -1,0 +1,59 @@
+GemHunters reputation dispute evidence manifest
+Case: PhishDestroy report 5E9D7443
+Prepared: 2026-07-14 AST
+
+Primary finding
+The public API still returned threat:true, severity:high, risk_score:50, and
+active:true at 2026-07-14T22:57:17.943Z. The public report discloses no captured
+URL, response, screenshot, HTML, redirect chain, payload, or impersonated brand.
+
+Test provenance
+Local vantage: San Juan, Puerto Rico, residential AS14979.
+DNS resolvers: 1.1.1.1 and 8.8.8.8.
+Tools: curl 8.7.1, Node 22.22.0, Chrome 150.0.7871.115, OpenSSL 3.6.3.
+Time source check: time.apple.com offset +0.048 seconds.
+Independent native IPv6: Globalping and Internet.nl.
+
+Top-level attachments
+gemhunters-clean-browser-cdp-20260714.png
+SHA-256 97e6d028efdb6953d05f819866d7b5b3fd513c70eb56123c3c186928adcd616f
+
+gemhunters-public-evidence-20260714.zip
+SHA-256 c3aef84a1356d7ac76e3afda0bc74e08ab29d118d31eaf64e9685dc9f8896ced
+Contains 16 public-safe files, including raw command output, API snapshot, DNS,
+TLS, normalized content, 39-URL scan, 10 crawler-UA checks, Globalping native
+IPv6 results, Internet.nl results, reproduction scripts, and internal hashes.
+
+gemhunters-browser-trace-public-20260714.zip
+SHA-256 8c35026758d55963c0e3f185517ae8433eb49a228e348cac7927465c2ae13a78
+Contains 16 public-safe files: five sanitized HARs, three final DOMs, three
+screenshots, trace summary, public result JSON, trace script, sanitizer, and
+internal hashes. All Cookie, Set-Cookie, Authorization, proxy authorization,
+API-key, and cookie-object values are redacted.
+
+Decisive files inside the public evidence ZIP
+gemhunters-phishdestroy-api-20260714.json
+SHA-256 a7b5c8f0ade92f8111de0f1d89cecf0737e6cf1ddb574fcc4ce8d250ad5e4755
+
+gemhunters-http-forensic-matrix-20260714.txt
+SHA-256 bc064731b8c040e7ab0c3499539b6de9c2bd9ad4e0fc2529fa17b96a23993841
+
+gemhunters-path-scan-results-20260714.json
+SHA-256 147d04c33386d6d414575a20fe83eedb2505613ca65437618876f4ebab40047b
+
+gemhunters-bot-ua-scan-results-20260714.json
+SHA-256 26671a16490bbad5805974b538110d085d144acb3f48ad2c5e00ba6b250cb5ed
+
+gemhunters-globalping-ipv6-evidence-20260714.json
+SHA-256 30c40dc7aef3076236f677bb5065bda02907369ad4d135405d05031387e6f487
+Measurement: https://globalping.io/?measurement=2C1z1cHuorY4Wf2db00020lJL
+
+Native IPv6 neutral results
+https://internet.nl/site/gemhunters.co/4184325/
+https://internet.nl/site/www.gemhunters.co/4184367/
+
+Known limitation
+The evidence covers disclosed, indexed, known, and common credential paths. It
+cannot test the original flagged URL because PhishDestroy has not disclosed it.
+The evidence challenges the unsupported active verdict; it does not claim that
+every possible URL has been proven clean.
